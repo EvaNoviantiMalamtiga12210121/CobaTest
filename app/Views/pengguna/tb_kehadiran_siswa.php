@@ -51,8 +51,8 @@
             },
             { data: 'id',
             render: (data, type, meta, row)=>{
-                var btnEdit = '<button class='btn-edit' data-id='${data}'> Edit </button>';
-                var btnHapus = '<button class='btn-hapus' data-id='${data}'> Hapus </button>';
+                var btnEdit = <button class='btn-edit' data-id='${data}'> Edit </button>;
+                var btnHapus = <button class='btn-hapus' data-id='${data}'> Hapus </button>;
                 return btnEdit + btnHapus;
                 }
             }
